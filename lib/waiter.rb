@@ -20,10 +20,9 @@ class Waiter
     @new_meal = Meal.new(self, @customer, @total, @tip)
   end
 
-
-  def waiters
-    
-  end
+def meals
+  
+end 
 
 
 end
