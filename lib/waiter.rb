@@ -20,9 +20,11 @@ class Waiter
     @new_meal = Meal.new(self, @customer, @total, @tip)
   end
 
-def meals
-  
-end
+  def meals
+    Meal.all.select do |meal|
+      meal.customer == self
+    end
+  end
 
 
 end
