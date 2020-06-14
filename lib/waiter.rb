@@ -22,7 +22,7 @@ class Waiter
 
 def meals
   
-end 
+end
 
 
 end
